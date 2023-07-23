@@ -1,6 +1,6 @@
-import { data, dom } from './data.js';
 import createMenuItem from './components/createMenuItem.js';
 import createMenuButton from './components/createMenuButton.js';
+import { data, dom } from './data.js';
 
 data.buttons.forEach(btnData => {
     const btnDom = createMenuButton(btnData);
